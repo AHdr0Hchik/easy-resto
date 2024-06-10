@@ -4,8 +4,18 @@
   "description": "EasyResto main server",
   "main": "server.js",
   "scripts": {
-    "test": "easy-resto-test"
+    "dev": "nodemon server.js"
   },
   "author": "Andrey \"AHdrOHchik\" Khomenko",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3"
+  }
 }
