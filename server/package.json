@@ -1,0 +1,11 @@
+{
+  "name": "easy-resto",
+  "version": "1.0.0",
+  "description": "EasyResto main server",
+  "main": "server.js",
+  "scripts": {
+    "test": "easy-resto-test"
+  },
+  "author": "Andrey \"AHdrOHchik\" Khomenko",
+  "license": "ISC"
+}
