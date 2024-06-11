@@ -8,6 +8,7 @@ module.exports = async (req, res, next) => {
                 sid: req.headers.serialid
             }
         });
+        console.log(license);
         if(!req.headers.serialid || !(license.length == 1)|| !(license[0].sid == req.headers.serialid) ) {
             return res.status(401).json({ success: false, error: "В доступе отказано по причине: Нелицензионная копия" });
         }
